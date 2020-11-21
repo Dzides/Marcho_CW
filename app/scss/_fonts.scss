@@ -2,8 +2,7 @@
     font-family: "Quicksand-SemiBold";
     font-weight: 600;
     font-style: normal;
-    src: local('Quicksand-SemiBold'),
-        url("../fonts/Quicksand-SemiBold.woff2") format("woff2"),
+    src: url("../fonts/Quicksand-SemiBold.woff2") format("woff2"),
         url("../fonts/Quicksand-SemiBold.woff") format("woff");
     font-display: swap;
 }
@@ -12,8 +11,7 @@
     font-family: "Quicksand-Medium";
     font-weight: 500;
     font-style: normal;
-    src: local('Quicksand-Medium'),
-        url("../fonts/Quicksand-Medium.woff2") format("woff2"),
+    src: url("../fonts/Quicksand-Medium.woff2") format("woff2"),
         url("../fonts/Quicksand-Medium.woff") format("woff");
     font-display: swap;
 }
@@ -22,8 +20,7 @@
     font-family: "Quicksand-Regular";
     font-weight: 400;
     font-style: normal;
-    src: local('Quicksand-Regular'),
-        url("../fonts/Quicksand-Regular.woff2") format("woff2"),
+    src: url("../fonts/Quicksand-Regular.woff2") format("woff2"),
         url("../fonts/Quicksand-Regular.woff") format("woff");
     font-display: swap;
 }
@@ -32,17 +29,16 @@
     font-family: "Roboto-Regular";
     font-weight: 400;
     font-style: normal;
-    src: local('Roboto-Regular'),
-        url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
         url("../fonts/Roboto-Regular.woff") format("woff");
     font-display: swap;
 }
+
 @font-face {
     font-family: "Roboto-Bold";
     font-weight: 700;
     font-style: normal;
-    src: local('Roboto-Bold'),
-        url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
         url("../fonts/Roboto-Bold.woff") format("woff");
     font-display: swap;
 }
