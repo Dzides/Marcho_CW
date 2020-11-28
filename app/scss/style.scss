@@ -217,7 +217,8 @@
     justify-content: center;
     padding-left: 25px;
     position: relative;
-    &::before{
+
+    &::before {
         content: '';
         position: absolute;
         background-image: url(../images/icons/home_icon.svg);
@@ -235,7 +236,8 @@
         color: #727272;
         padding-right: 40px;
         position: relative;
-        &::after{
+
+        &::after {
             content: '';
             position: absolute;
             width: 9px;
@@ -244,10 +246,12 @@
             top: 9px;
             background-image: url(../images/icons/arrow_right.svg);
         }
-        &:last-child{
+
+        &:last-child {
             color: $accent;
             padding-right: 0;
-            &::after{
+
+            &::after {
                 display: none;
             }
         }
@@ -896,7 +900,7 @@
     }
 
     &__input {
-         display: block;
+        display: block;
         width: 100%;
         border: none;
         background-color: $bg;
@@ -905,7 +909,7 @@
         padding: 0 15px;
     }
 
-    &__btn{
+    &__btn {
         display: block;
         background-color: $title;
         text-transform: uppercase;
@@ -923,5 +927,8 @@
         color: $accent;
         display: inline-block;
     }
-}
 
+    &__text {
+        margin-bottom: 25px;
+    }
+}
