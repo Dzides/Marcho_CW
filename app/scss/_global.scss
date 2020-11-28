@@ -12,6 +12,10 @@ body {
     flex-direction: column;
 }
 
+.header--404-page {
+    background-color: $bg;
+}
+
 .main {
     flex-grow: 1;
 }
