@@ -191,6 +191,75 @@
     }
 }
 
+// TOP
+
+.top {
+
+    &__container {
+        max-width: 1700px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        padding: 120px 0 130px;
+        text-align: center;
+
+        .title {
+            @extend %roboto-400;
+        }
+    }
+
+
+}
+
+.breadcrumbs {
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 25px;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url(../images/icons/home_icon.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+        top: 4px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        color: #727272;
+        padding-right: 40px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 9px;
+            height: 10px;
+            right: 15px;
+            top: 9px;
+            background-image: url(../images/icons/arrow_right.svg);
+        }
+        &:last-child{
+            color: $accent;
+            padding-right: 0;
+            &::after{
+                display: none;
+            }
+        }
+    }
+
+    &__link {
+        color: inherit;
+    }
+}
+
+
+
 // SLIDER
 
 .top-slider {
@@ -695,7 +764,8 @@
         display: flex;
         justify-content: space-between;
         position: relative;
-        &::after{
+
+        &::after {
             content: '';
             position: absolute;
             top: -25px;
@@ -714,9 +784,11 @@
 
         &:hover {
             box-shadow: 20px 0px 60px 0px rgba(202, 202, 202, 0.35);
-            .blog__item-link{
+
+            .blog__item-link {
                 color: $accent;
-                &::after{
+
+                &::after {
                     background-image: url(../images/icons/arrow_hover.svg);
                 }
             }
@@ -790,7 +862,3 @@
     }
 
 }
-
-
-
-@import 'media';
