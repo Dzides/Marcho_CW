@@ -1,6 +1,6 @@
 $accent: #fe3e57;
 $default: #8d8d8d;
-$title: #28292d;
+$title: #29282d;
 $bg: #f6f6f6;
 
 %quicksand-400 {
@@ -37,7 +37,8 @@ $bg: #f6f6f6;
     box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
 }
 
-%checkbox-hidden {
+%checkbox-hidden,
+%radio-hidden {
     width: 1px;
     height: 1px;
     overflow: hidden;
